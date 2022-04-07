@@ -1525,7 +1525,7 @@ function init() {
     fov: 60
   });
 
-  root.renderer.setClearColor(parseInt(localStorage.getItem("bg-color")) || 0xeaedf0);
+  root.renderer.setClearColor(parseInt(localStorage.getItem("bg-color")) || window.getComputedStyle(document.getElementById("content"), null).getPropertyValue("background-color"));
   root.renderer.setPixelRatio(window.devicePixelRatio || 1);
   root.camera.position.set(0, 0, 600);
 
