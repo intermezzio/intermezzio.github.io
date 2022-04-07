@@ -163,7 +163,7 @@ Paginate = 3
     [[params.experience.items]]
       job = "Technical Spec (Systems) Engineering Intern"
       company = "Lockheed Martin"
-      companyUrl = "https://example.com"
+      companyUrl = "https://www.lockheedmartin.com/"
       date = "Jan 2021 - May 2021"
       content = """I worked as a systems engineering intern at Lockheed Martin. Much of my work involved the following:\n\n\
       - Built automation tests for Linux and Windows\n\
