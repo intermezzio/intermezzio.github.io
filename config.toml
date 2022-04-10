@@ -253,7 +253,7 @@ Paginate = 3
 
       [params.education.items.school]
         name = "Franklin W. Olin College of Engineering"
-        url = "https://example.org"
+        url = "https://www.olin.edu"
 
       # [params.education.items.featuredLink]
       #   enable = true
