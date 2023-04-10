@@ -94,9 +94,9 @@ Paginate = 3
   [params.hero]
     enable = true
     intro = "Hi, my name is"
-    title = "Andrew."
-    subtitle = "I write practical software"
-    content = "A passionate full-stack developer. I explore new technologies by creating useful software tools for myself and the greater community that are written with users and maintainers in mind."
+    title = "Andrew"
+    subtitle = "Having fun writing software"
+    content = "I like to make writing software an exciting experience. In doing so, I take on practical, maintainable, and fun projects that engage the people around me."
     image = "/images/logo.png"
 
     # [params.hero.button]
@@ -132,7 +132,7 @@ Paginate = 3
     [params.about.skills]
       enable = true
       title = "These are some of the technologies I've been working with recently:"
-      items = ["Python", "Java", "JavaScript", "Heroku", "HTML/CSS", "Bash", "GCP", "HTML/CSS"]
+      items = ["Python", "Java", "JavaScript", "Heroku", "Tableau", "Bash", "GCP", "HTML/CSS"]
 
   # Experience
   [params.experience]
@@ -140,7 +140,7 @@ Paginate = 3
 
     [[params.experience.items]]
       job = "Software Engineering Intern"
-      company = "Tableau"
+      company = "Salesforce (Tableau)"
       companyUrl = "https://www.tableau.com/"
       date = "May 2021 - Present"
       content = """I am currently a software engineering intern at Tableau in Seattle, WA, where \
@@ -180,7 +180,7 @@ Paginate = 3
 
     [[params.experience.items]]
       job = "Remote Sensing Teaching Assistant"
-      company = "MIT Beaver Works"
+      company = "MIT"
       companyUrl = "https://beaverworks.ll.mit.edu/CMS/bw/BWSI"
       date = "July 2019 - Aug 2020"
       content = """I helped teach a course about how to use computer science for natural disaster response.\n\n\
@@ -216,12 +216,25 @@ Paginate = 3
       date = "Jan 2021 - Present"
       content = """I have been a teaching assistant for many technical classes in college and a personal tutor since high school. \
       I also led an initiative to teach first-years Python during the remote year when it was removed from an introductory course.\n\n\
+      - Larger-Scale Software Development\n\
+      - Scientific Computing\n\
       - Software Design\n\
       - Engineering Systems Analysis, including Signal Processing\n\
       - Introduction to Microelectronic Circuits\n\
       - Data Science\n\
       - Calculus, Python, Java, C++, Spanish, English (high school)
       """
+    
+    # [[params.experience.items]]
+    #   job = "Freelance Developer"
+    #   company = "Startups"
+    #   companyUrl = "#"
+    #   date = "Jan 2021 - Present"
+    #   content = """Assorted startups have hired me to help with software they're writing, including some of the following\
+    #   projects:\n\n\
+    #   - JS + Python + Heroku Deployment for a Makeup Startup\n\
+    #   - Other
+    #   """
 
   [params.education]
     enable = true
@@ -239,7 +252,7 @@ Paginate = 3
     [[params.education.items]]
       title = "Bachelor of Science in Electrical and Computer Engineering"
       date = "2019 - 2023"
-      GPA = "3.79 out of 4.0"
+      GPA = "3.81 out of 4.0"
       content = """Recipient of a 50% tuition merit scholarship\n\n\
       Extracurricular Activities\n\
       - Chair of the Honor Board (Student Government branch for integrity and justice)\n\
@@ -248,6 +261,7 @@ Paginate = 3
       - Formula SAE\n\
       - GRAVL autonomous tractor\n\
       - Ultimate Frisbee team\n\
+      - Actor
       - Andrew Quartet
       """
 
