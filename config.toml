@@ -139,11 +139,26 @@ Paginate = 3
     enable = true
 
     [[params.experience.items]]
-      job = "Software Engineering Intern"
-      company = "Salesforce (Tableau)"
+      job = "Software Engineer"
+      company = "Salesforce"
+      companyUrl = "https://www.salesforce.com/"
+      date = "Nov 2023 - Present"
+      content = """I currently work at Salesforce on Data Cloud, based out of New York, NY. I work on Data Cloud,\
+        a platform that allows companies to ingest, transform, and output data, particularly for integration with\
+        the existing CRM product and Salesforce AI models.\n\n\
+        - Build automation for testing products to meet specific use cases, helping\
+        ensure Salesforce releases features on time without compromising on quality\n\
+        - Maintain an internal tool that automates UI interactions in Data Cloud\n\
+        - Effectively communicate across teams regarding code quality, which\
+        requires an in-depth understanding of Salesforce's product as a whole
+        """
+
+    [[params.experience.items]]
+      job = "Software Engineer Intern"
+      company = "Tableau (by Salesforce)"
       companyUrl = "https://www.tableau.com/"
-      date = "May 2021 - Present"
-      content = """I am currently a software engineering intern at Tableau in Seattle, WA, where \
+      date = "May 2021 - Aug 2022"
+      content = """I was a software engineering intern at Tableau in Seattle, WA, where \
         I drove a feature that collects telemetry (diagnostics) data for Tableau users.\n\n\
         - Ran design and security meetings\n\
         - Wrote Java code that interfaced a Google BigQuery and a Tableau Dashboard\n\
@@ -153,7 +168,7 @@ Paginate = 3
 
       [params.experience.items.info]
         enable = true
-        content = "I'm working as a software engineering intern for two consecutive summers."
+        content = "I worked as a software engineering intern for two consecutive summers."
 
       [params.experience.items.featuredLink]
         enable = true
@@ -303,6 +318,11 @@ Paginate = 3
       title = "Best Google Cloud Project at Pennapps 2020"
       content = "Built AutoTOS, an accurate ML Terms of Service summarizer."
       url = "https://devpost.com/software/auto-tos"
+
+    [[params.achievements.items]]
+      title = "Interviewed on the Stack Overflow Podcast"
+      content = "Interviewed alongside my professor regarding my work as a TA for an innovative software engineering undergraduate program."
+      url = "https://stackoverflow.blog/2023/04/28/how-a-top-ranked-engineering-school-reimagined-cs-curriculum-ep-565/"
 
     [[params.achievements.items]]
       title = "Best Data Visualization Hack, University of Iowa 2021"
